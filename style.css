@@ -1,0 +1,119 @@
+body{
+    background-color: #020514;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.navbar{
+background-color: #020514 !important;
+color: #fff !important;
+--bs-navbar-active-color: rgb(255, 255, 255);
+--bs-navbar-brand-color: rgba( rgb(255, 255, 255));
+--bs-navbar-color: rgba( rgb(255, 255, 255));
+
+
+}
+
+li{
+list-style: none;
+} 
+
+li a{
+background-color: #1E202B;
+    color: #fff;
+   text-decoration: none;
+   border: solid 3px #1E202B;
+   border-radius: 50px;
+   transition: border .4s ,color .4s;
+}
+.navbar li a:hover{
+
+    width: 120px;
+    height: 35px;
+    border: solid 3px #009AD8;
+    border-radius: 50px;
+    background-color: #020514;
+    color: #009AD8;
+    --bs-navbar-brand-hover-color: rgba( rgb(0, 154, 216));
+   
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(rgb(0, 154, 216));
+    width: 120px;
+    height: 35px;
+    border: solid 3px #009AD8;
+    border-radius: 50px;
+    background-color: #020514;
+
+   
+}
+
+.weather-content{
+    background-image:url(imgs/back.jpg);
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+ 
+}
+
+#search ,#email{
+ 
+    background-color: #020514;
+    color: #fff;
+    width: 95%;
+    border: solid 1px #020514;
+    border-radius: 50px;
+    
+}
+form{
+    background-color: #020514;
+    border-radius: 50px;
+  
+}
+#submit,#subscribe{
+    border: solid 1px #009AD8;
+    background-color: #009AD8;
+    border-radius: 50px;
+    color: #fff;
+}
+.contant{
+      
+    color: #fff;
+}
+#date{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.contant h1{
+   font-size: 70px;
+}
+.contant img{
+ justify-content: start;
+}
+
+#forecast{
+    background: linear-gradient(135dec , rgb(255, 255, 255,0.1), rgb(255, 255, 255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter:blur(10px) ;
+    background-repeat:20px ;
+    border: 1px solid rgb(255, 255, 255,0.10);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgb(0, 0, 0,0.37);
+}
+.footer{
+background-color: #020514;
+}
+.footer-form{
+    border: solid 1px #ffffff;
+
+}
+footer{
+    background-color: #020514;
+    color: #fff;
+    text-align: center;
+}
+.footer i:hover{
+    color: #009AD8;
+}
+
