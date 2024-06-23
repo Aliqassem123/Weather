@@ -86,8 +86,7 @@ function displayCurrent() {
 
 
 
-}
-search('Cairo')
+}
 document.getElementById("submit").addEventListener("click",function (){
   search(searchInput.value)})
 
